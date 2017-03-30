@@ -1,0 +1,115 @@
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  background-color: #523E33;
+  padding: 1em;
+  word-spacing: 5em;
+}
+
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #9ACD32;
+  background-color: #000000;
+  padding: 1em;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 30em;
+}
+
+.logo {
+  width: 6em;
+}
+
+.feat-img {
+  display: grid;
+  flex-direction: column;
+  padding-top: 1em;
+  float: left;
+}
+
+.announcements {
+  float: left;
+  width: 15em;
+  height: 15em;
+  padding-top: 22em;
+  margin-left: -6em;
+}
+
+.main {
+  padding-bottom: 15em;
+
+}
+
+.hr {
+  background-color: #523E33;
+  height: 5px;
+}
+
+.inst-img {
+  height: 7em;
+  width: 9em;
+  float: left;
+}
+
+.inst-img p {
+  float: left;
+}
+
+.instructors {
+  float: left;
+  border-width: thin;
+  width: 10em;
+}
+
+.policy {
+  float: right;
+  width: 15em;
+  margin-right: 1em;
+  margin-bottom: 30em
+}
+
+.about {
+  display: block;
+  width: 40em;
+  position: absolute;
+  margin-left: 190px;
+}
+
+.client {
+  float: left;
+  display:block;
+  width: 20em;
+  margin-top: 45em;
+  margin-left: 2em;
+}
+
+.user {
+  float: left;
+  display:block;
+  width: 20em;
+  margin-top: 45em;
+  margin-left: 2em;
+  padding-left: 0.6em;
+}
+
+.section-1 {
+  line-height: 95%
+}
+
+.section-2 {
+  line-height: 95%
+}
+
+.button {
+  border-radius: 65$;
+  color: #523E33;
+  font-size: 2em;
+}
