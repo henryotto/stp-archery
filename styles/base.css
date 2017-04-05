@@ -16,7 +16,7 @@ nav a {
 nav a:hover {
   color: #9ACD32;
   background-color: #000000;
-  padding: 1em;
+  padding: 0.9em;
 }
 
 footer p {
@@ -24,9 +24,24 @@ footer p {
   margin-top: 1em;
 }
 
+.container-prize {
+  display: inline-flex;
+  width: 35em;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #523E33;
+}
+
+.container-prize p {
+  padding-left: 0.5em;
+}
+
 .about-footer {
-  margin-top: 45em;
-  margin-top: 85em;
+  margin-top: 25em;
 }
 
 .logo {
@@ -59,8 +74,8 @@ footer p {
 }
 
 .inst-img {
-  height: 7em;
-  width: 9em;
+  height: 8em;
+  width: 10em;
   float: left;
 }
 
@@ -70,7 +85,7 @@ footer p {
 
 .instructors {
   float: left;
-  border-width: thin;
+  text-align: right;
   width: 10em;
 }
 
@@ -82,27 +97,33 @@ footer p {
 }
 
 .about {
-  display: block;
-  width: 40em;
-  position: absolute;
-  margin-left: 190px;
+  display: inline-block;
+  width: 52em;
+  margin-left: 20px;
+  text-align: justify;
+}
+
+.about-1 {
+  display: flex;
 }
 
 .client {
-  float: left;
   display:block;
   width: 20em;
-  margin-top: 45em;
-  margin-left: 2em;
+  margin-left: 1em;
+  text-align: justify;
 }
 
 .user {
   float: left;
   display:block;
   width: 20em;
-  margin-top: 45em;
-  margin-left: 2em;
-  padding-left: 0.6em;
+  margin-left: 12em;
+  text-align: justify;
+}
+
+.user h3 {
+  text-align: right;
 }
 
 .section-1 {
@@ -114,7 +135,10 @@ footer p {
 }
 
 .button {
-  border-radius: 65$;
-  color: #523E33;
-  font-size: 2em;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 1.5em;
+  margin-left: 7em;
+  background: #000;
+
 }
