@@ -4,7 +4,7 @@ body {
 
 nav {
   background-color: #523E33;
-  padding: 1em;
+  padding: 1.5em;
   word-spacing: 5em;
 }
 
@@ -15,8 +15,6 @@ nav a {
 
 nav a:hover {
   color: #9ACD32;
-  background-color: #000000;
-  padding: 0.9em;
 }
 
 footer p {
@@ -41,7 +39,7 @@ footer p {
 }
 
 .about-footer {
-  margin-top: 25em;
+  margin-top: 1em;
 }
 
 .logo {
@@ -71,6 +69,7 @@ footer p {
 .hr {
   background-color: #523E33;
   height: 5px;
+  margin-top: 26em
 }
 
 .inst-img {
@@ -92,14 +91,15 @@ footer p {
 .policy {
   float: right;
   width: 15em;
-  margin-right: 1em;
+  margin-right: em;
   margin-bottom: 30em
 }
 
 .about {
   display: inline-block;
   width: 52em;
-  margin-left: 20px;
+  margin-left: 25em;
+  margin-top: 15px;
   text-align: justify;
 }
 
@@ -110,7 +110,7 @@ footer p {
 .client {
   display:block;
   width: 20em;
-  margin-left: 1em;
+  margin-left: 25em;
   text-align: justify;
 }
 
